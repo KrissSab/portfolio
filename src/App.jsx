@@ -9,7 +9,7 @@ export const App = () => {
         <div className={styles.fluidContainer}>
             <div className={styles.portfolioContainer}>
                 <section className={styles.bioContainer}>
-                    <img className={styles.photo} src="/photo.jpg" alt="photo" />
+                    <img className={styles.photo} src="/photo.png" alt="photo" />
                     <article>
                         <h1>krissab
                             {theme === 'light' ?
@@ -89,7 +89,7 @@ export const App = () => {
                             where you can share your geolocation and ask for help,
                             it was possible to do so using a website and telegram bot</p>
                         <span className={styles.petTechnologies}>
-                            ReactJS • GoogleMaps API • Modular CSS • Versel
+                            ReactJS • GoogleMaps API • Modular CSS • Vercel
                         </span>
                     </div>
                 </section>
