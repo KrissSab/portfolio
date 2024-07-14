@@ -65,9 +65,28 @@ export const App = () => {
                     <label className={styles.blockName}>Pet Projects</label>
                     <p className={styles.year}>2024 - present</p>
                     <div className={styles.petContainer}>
-                        <a className={styles.petName} href="https://github.com/danylomusiiaka/HelpHub">
-                            Full Stack Engineer - HelpHub  ↗
-                        </a>
+                        <p className={styles.petName}>Full Stack Engineer - Sea Sensors Tracking                         <div className={styles.groupContainer}>
+                            <a className={styles.petName} href="https://github.com/KrissSab/frontend-seasensors">
+                                FrontEnd  ↗
+                            </a>
+                            <a className={styles.petName} href="https://github.com/KrissSab/backend-seasensors">
+                                BackEnd  ↗
+                            </a>
+                        </div></p>
+                        <p className={styles.petDetails}>
+                            The application gives the ability to create or load data
+                            from Redis (if it already was created) about sea sensors.
+                            Sensors data visualization and the possibility to manage the thruster
+                            speed of each sensor, sensors data updates every second.
+                        </p>
+                        <span className={styles.petTechnologies}>
+                            ReactJS • Tailwind • Shadcn/ui • NestJS • Redis • Websockets • RestAPI • Docker
+                        </span>
+                    </div>
+                    <div className={styles.petContainer}>
+                        <span className={styles.petName} >
+                            Full Stack Engineer - <a className={styles.petName} href="https://github.com/danylomusiiaka/HelpHub">HelpHub ↗</a>
+                        </span>
                         <p className={styles.petDetails}>
                             My 3 Hackathon, where my team developed a fully
                             functional platform "HelpHub" which was intended
@@ -81,9 +100,9 @@ export const App = () => {
                     </div>
                     <p className={styles.year}>2023 - 2024</p>
                     <div className={styles.petContainer}>
-                        <a className={styles.petName} href="https://github.com/KrissSab/hlpme-front">
-                            Front End Engineer - HlpMe  ↗
-                        </a>
+                        <span className={styles.petName}>
+                            Front End Engineer - <a className={styles.petName} href="https://github.com/KrissSab/hlpme-front">HlpMe ↗</a>
+                        </span>
                         <p className={styles.petDetails}>
                             My 2 Hackathon, where we took 3rd place by creating an application
                             where you can share your geolocation and ask for help,

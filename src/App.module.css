@@ -1,131 +1,137 @@
 .fluidContainer {
-    align-items: center;
-    background-color: var(--bg-color);
-    color: var(--primary-text-color);
-    margin-block: 100px;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  margin-block: 100px;
 }
 .portfolioContainer {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    max-width: 28rem;
-    gap: 2.75rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 28rem;
+  gap: 2.75rem;
 }
 
 .bioContainer {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
 }
 
 .bioContainer > article {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .photo {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .themeImg {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 24px;
-    width: 24px;
-    /* padding: 2px; */
-    background-color: var(--bg-color);
-    /* border: 1px solid var(--primary-text-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 24px;
+  width: 24px;
+  /* padding: 2px; */
+  background-color: var(--bg-color);
+  /* border: 1px solid var(--primary-text-color);
     border-radius: 0.25rem; */
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .themeImg:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 h1 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .myPosition {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--second-text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--second-text-color);
 }
 
 .blockName {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .blockDetails {
-    padding-block: 1rem;
-    font-size: 1rem;
-    color: var(--second-text-color);
+  padding-block: 1rem;
+  font-size: 1rem;
+  color: var(--second-text-color);
 }
 
 .year {
-    margin-block: 0.5rem;
-    font-size: 0.8rem;
-    color: var(--second-text-color);
+  margin-block: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--second-text-color);
 }
 
 .jobContainer,
 .petContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 1rem;
+  margin-block: 1rem;
 }
 
 .jobName,
 .petName {
-    width: fit-content;
-    font-size: 1rem;
+  width: fit-content;
+  font-size: 1rem;
 }
 
 .jobDetails,
 .petDetails,
 .linkName {
-    font-size: 0.9rem;
-    color: var(--second-text-color);
+  font-size: 0.9rem;
+  color: var(--second-text-color);
 }
 
 .jobTechnologies,
 .petTechnologies,
 .link {
-    font-size: 0.9rem;
-    color: var(--third-text-color);
+  font-size: 0.9rem;
+  color: var(--third-text-color);
 }
 .link,
 a:is(.petName) {
-    border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-right: 1rem;
 }
 
 .link:hover,
 a:is(.petName):hover {
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .linksContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-area: 0.5rem;
-    gap: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-area: 0.5rem;
+  gap: 8px;
 }
 
 .linkContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.groupContainer {
+  display: flex;
 }
