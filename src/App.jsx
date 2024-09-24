@@ -17,14 +17,14 @@ export const App = () => {
                                 <img className={styles.themeImg} onClick={toggleTheme} src="/moon.png" alt="moon" />
                             }
                         </h1>
-                        <h2 className={styles.myPosition}>Full Stack Engineer</h2>
+                        <h2 className={styles.myPosition}>Backend Engineer</h2>
                         <a href="https://t.me/im_kristian">@im_kristian</a>
                     </article>
                 </section>
                 <section>
                     <label className={styles.blockName}>About</label>
                     <p className={styles.blockDetails}>
-                        Hi, I'm Kristian, higly motivated and quality-oriented Full Stack Engineer with 1 year
+                        Hi, I'm Kristian, higly motivated and quality-oriented Backend Engineer with 1 year
                         in the industry with expirience in designing and implementing
                         scalable web applications. I love to create dynamic and innovative
                         products from scratching to publishing. Focused on creating
@@ -35,6 +35,21 @@ export const App = () => {
                 <section>
                     <label className={styles.blockName}>Work Experience</label>
                     <p className={styles.year}>2024 - present</p>
+                    <div className={styles.jobContainer}>
+                        <span className={styles.jobName}>
+                            Backend Engineer - <a className={styles.petName} href="https://www.linkedin.com/company/appexoft/">Appexoft ↗</a>
+                        </span>
+                        <p className={styles.jobDetails}>
+                            Working as outstaff at office, developing a new
+                            feature for the existing project, creating a new
+                            microservice, and implementing a new feature for
+                            the existing one.
+                        </p>
+                        <span className={styles.jobTechnologies}>
+                            Node JS • Express JS • Nest JS • SQL | NoSQL • Problem Solving
+                        </span>
+                    </div>
+                    <p className={styles.year}>2024</p>
                     <div className={styles.jobContainer}>
                         <span className={styles.jobName}>
                             Full Stack Engineer - Freelance

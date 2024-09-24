@@ -3,6 +3,7 @@
   background-color: var(--bg-color);
   color: var(--primary-text-color);
   margin-block: 100px;
+  margin-inline: 0.625rem;
 }
 .portfolioContainer {
   display: flex;
@@ -119,6 +120,7 @@ a:is(.petName):hover {
 
 .linksContainer {
   width: 100%;
+  margin-bottom: 6.25rem;
   display: flex;
   flex-direction: column;
   grid-area: 0.5rem;
