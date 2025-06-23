@@ -24,12 +24,17 @@ export const App = () => {
                 <section>
                     <label className={styles.blockName}>About</label>
                     <p className={styles.blockDetails}>
-                        Hi, I'm Kristian, higly motivated and quality-oriented Backend Engineer with 1 year
-                        in the industry with expirience in designing and implementing
-                        scalable web applications. I love to create dynamic and innovative
-                        products from scratching to publishing. Focused on creating
-                        user-friendly experiences that continually
-                        become better and better.
+                        Hey there! I'm Kristian, and I'm a Backend Engineer with more than  two years of commercial
+                        experience – always pushing for high-quality, reliable solutions. I really enjoy
+                        the whole process of bringing dynamic and innovative products to life, from the
+                        very first idea all the way to launch. My main goal is always to build solid
+                        foundations on the server-side that ultimately make the user experience smoother and continually better.
+                    </p>
+                </section>
+                <section>
+                    <label className={styles.blockName}>Tech Stack</label>
+                    <p className={styles.blockDetails}>
+                        NodeJS • NestJS • ExpressJS • Solidity • GoLang • SQL | NoSQL • Docker • RestAPI • Websockets • GraphQL
                     </p>
                 </section>
                 <section>
@@ -103,7 +108,7 @@ export const App = () => {
                             Full Stack Engineer - <a className={styles.petName} href="https://github.com/danylomusiiaka/HelpHub">HelpHub ↗</a>
                         </span>
                         <p className={styles.petDetails}>
-                            My 3 Hackathon, where my team developed a fully
+                            My third Hackathon, where my team developed a fully
                             functional platform "HelpHub" which was intended
                             to help victims. Here you can reg as a victim or
                             as a volunteer. If you were a victim you
@@ -112,14 +117,24 @@ export const App = () => {
                         <span className={styles.petTechnologies}>
                             ReactJS • NodeJS • Modular CSS
                         </span>
+                        <span className={styles.petName}>
+                            Backend Engineer - <a className={styles.petName} href="https://github.com/LNU-FECT-Student-Government/Kaizen">Kaizen ↗</a>
+                        </span>
+                        <p className={styles.petDetails}>
+                            My fourth Hackathon, where we took 3rd place by creating an application
+                            where you can search for question related to studying some technologies or subjects,
+                            also implemented Gemini AI assistant. StackOverflow like application.</p>
+                        <span className={styles.petTechnologies}>
+                            NodeJS • NestJS • MongoDB • Gemini AI • Git
+                        </span>
                     </div>
                     <p className={styles.year}>2023 - 2024</p>
                     <div className={styles.petContainer}>
                         <span className={styles.petName}>
-                            Front End Engineer - <a className={styles.petName} href="https://github.com/KrissSab/hlpme-front">HlpMe ↗</a>
+                            Frontend Engineer - <a className={styles.petName} href="https://github.com/KrissSab/hlpme-front">HlpMe ↗</a>
                         </span>
                         <p className={styles.petDetails}>
-                            My 2 Hackathon, where we took 3rd place by creating an application
+                            My second Hackathon, where we took 3rd place by creating an application
                             where you can share your geolocation and ask for help,
                             it was possible to do so using a website and telegram bot</p>
                         <span className={styles.petTechnologies}>
